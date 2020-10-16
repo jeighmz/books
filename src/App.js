@@ -13,7 +13,7 @@ function App() {
     <div id='current'>
         <h1 style={{textAlign:'center'}}>you clicked on the link! cool.</h1>
         <div style={{display: 'flex', flexDirection: 'column', alignItems:'center'}}>
-          <Slider>
+          <Slider description={'? what: quantum physics and the possibility of a multiverse.'}>
             <img width='150px' height='225px' src={require('./book-covers/something-deeply-hidden.jpg')}></img>
           </Slider>
           <div style={{position:'relative', top:'25px'}}>
@@ -23,7 +23,7 @@ function App() {
         </div>
 
         <div style={{display: 'flex', flexDirection: 'column', alignItems:'center', justifyContent:'center', position:'relative', top: '20px'}}>
-          <Slider>
+          <Slider description={'? what: practices of stratgy from 17th century Japanese master swordsman'}>
             <img width='150px' height='225px' src={require('./book-covers/book-five-rings.jpg')}></img>
           </Slider>
           <div style={{position:'relative', top:'25px'}}>
@@ -33,7 +33,7 @@ function App() {
         </div>
 
         <div style={{display: 'flex', flexDirection: 'column', alignItems:'center',  position:'relative', top: '40px'}}>
-          <Slider>
+          <Slider description={'? what: revolutionary model on eco-friendliness and effectiveness of design'}>
             <img width='150px' height='225px' src={require('./book-covers/cradle-to-cradle.jpg')}></img>
           </Slider>
           <div style={{position:'relative', top:'25px'}}>
@@ -47,7 +47,7 @@ function App() {
       <div id='previous'>
           <h3 style={{textAlign:'center'}}>the knowledge trail</h3>
       </div>
-      <Slider>
+      <Slider description={'? what: everything from time travel to black holes and the place of God in physics'}>
         <img width='150px' height='225px' src={require('./book-covers/brief_history_time.jpg')}></img>
       </Slider>
     </div>

@@ -30,7 +30,7 @@ body {
 .item {
   position: relative;
   width: 150px;
-  height: 200px;
+  height: 225px;
   pointer-events: auto;
   transform-origin: 50% 50% 0px;
   padding-left: 32px;

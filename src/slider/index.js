@@ -4,7 +4,7 @@ import { useSpring, animated, interpolate } from 'react-spring'
 import { useGesture } from 'react-with-gesture'
 import './styles.css'
 
-export default ({ children }) => {
+export default ({ children, description }) => {
   const [bind, { delta, down }] = useGesture()
   const { x, bg, size } = useSpring({
     x: down ? delta[0] : 0,
@@ -16,7 +16,7 @@ export default ({ children }) => {
   return (
     <animated.div {...bind()} class="item" style={{ background: bg }}>
       {/* <animated.div class="av" style={{ transform: avSize, justifySelf: delta[0] < 0 ? 'end' : 'start' }} /> */}
-        <p>testing</p>
+        <p>{description}</p>
       <animated.div class="fg" style={{ transform: interpolate([x, size], (x, s) => `translate3d(${x}px,0,0) scale(${s})`) }}>
         {children}
       </animated.div>
