@@ -23,12 +23,13 @@ body {
   align-items: center;
   justify-content: center;
   overflow: auto;
+  overflow-x:hidden;
   background: #f0f0f0;
 } 
 
 .item {
   position: relative;
-  width: 40%;
+  width: 150px;
   height: 200px;
   pointer-events: auto;
   transform-origin: 50% 50% 0px;
