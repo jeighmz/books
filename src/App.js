@@ -6,6 +6,7 @@ function App() {
   return (
     <div>
         <h1>you clicked on the link! cool.</h1>
+        <p>Something Deeply Hidden by Sean Carroll</p>
     </div>
   );
 }
