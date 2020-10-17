@@ -56,7 +56,7 @@ function App() {
         </Slider>
       </div>
       <div style={{display:'flex', flexDirection:'row', margin:'0 auto', width:'100%', justifyContent:'space-around', position: 'relative', top:'20px'}}>
-        <Slider description={'? what: stories about how individuals with power held it throughout history from royalty to con artists'}>
+        <Slider description={'? what: lessons on how people held power through history from royalty to con artists'}>
           <img width='150px' height='225px' src={require('./book-covers/48-laws-of-power.jpg')}></img>
         </Slider>
         <Slider description={'? what: short stories about odd paths towards success'}>
