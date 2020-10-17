@@ -23,3 +23,4 @@ export default ({ children, description }) => {
     </animated.div>
   )
 }
+

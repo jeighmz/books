@@ -1,9 +1,7 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-import { useSpring, animated, interpolate } from 'react-spring'
-import { useGesture } from 'react-with-gesture'
 import Slider from './slider'
+import Transition from './transitions'
 
 
 function App() {
@@ -11,7 +9,8 @@ function App() {
     <React.Fragment>
     <div style={{display:'flex', flexDirection:'column', position: "absolute", top: '0px'}}>
     <div id='current'>
-        <h1 style={{textAlign:'center'}}>you clicked on the link! cool.</h1>
+        <h2 style={{textAlign:'center'}}>you clicked on the link! cool.</h2>
+        <h3 style={{textAlign:'center'}}>todays binges</h3>
         <div style={{display: 'flex', flexDirection: 'column', alignItems:'center'}}>
           <Slider description={'? what: quantum physics and the possibility of a multiverse.'}>
             <img width='150px' height='225px' src={require('./book-covers/something-deeply-hidden.jpg')}></img>
@@ -48,20 +47,20 @@ function App() {
           <h3 style={{textAlign:'center'}}>the knowledge trail</h3>
       </div>
       <div style={{display:'flex', flexDirection:'row', margin:'0 auto', width:'100%', justifyContent:'space-around'}}>
-        <Slider description={'? what: everything from time travel to black holes and the place of God in physics'}>
-          <img width='150px' height='225px' src={require('./book-covers/brief_history_time.jpg')}></img>
-        </Slider>
-        <Slider description={'? what: original but with prettier pictures and smaller sentences'}>
-          <img width='150px' height='225px' src={require('./book-covers/briefer_history_time.jpg')}></img>
-        </Slider>
+        <div style={{position:'relative', top:'0px',width:'150px', height:'225px'}}>
+          <Transition content={<img width='150px' height='225px' src={require('./book-covers/brief_history_time.jpg')}></img>} rating='? what: everything from time travel to black holes and the place of God in physics' takeaways='. my take: respect he wrote this while struggling with ALS - where there is life there is hope'></Transition>
+        </div>
+        <div style={{position:'relative', top:'0px',width:'150px', height:'225px'}}>
+          <Transition content={<img width='150px' height='225px' src={require('./book-covers/briefer_history_time.jpg')}></img>} rating='? what: original but with prettier pictures and smaller sentences' takeaways='. my take: published couple decades after but still so much unknown in physics '></Transition>
+        </div>
       </div>
       <div style={{display:'flex', flexDirection:'row', margin:'0 auto', width:'100%', justifyContent:'space-around', position: 'relative', top:'20px'}}>
-        <Slider description={'? what: lessons on how people held power through history from royalty to con artists'}>
-          <img width='150px' height='225px' src={require('./book-covers/48-laws-of-power.jpg')}></img>
-        </Slider>
-        <Slider description={'? what: short stories about odd paths towards success'}>
-          <img width='150px' height='225px' src={require('./book-covers/barking-up-wrong-tree.jpg')}></img>
-        </Slider>
+        <div style={{position:'relative', top:'0px',width:'150px', height:'225px'}}>
+          <Transition content={<img width='150px' height='225px' src={require('./book-covers/48-laws-of-power.jpg')}></img>} rating='? what: lessons on how people held power through history from royalty to con artists' takeaways='. my take: too much vicrotian era history - dude Greene is a little cynical and rubs off a God-complex'></Transition>
+        </div>
+        <div style={{position:'relative', top:'0px',width:'150px', height:'225px'}}>
+          <Transition content={<img width='150px' height='225px' src={require('./book-covers/barking-up-wrong-tree.jpg')}></img>} rating='? what: short stories about odd paths towards success' takeaways='. my take: who knew you could learn lessons from pirates - inspiration is really everywhere'></Transition>
+        </div>
       </div>
     </div>
     </div>
