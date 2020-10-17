@@ -10,16 +10,16 @@ function App() {
     <div style={{display:'flex', flexDirection:'column', position: "absolute", top: '0px'}}>
     <div id='current'>
         <h2 style={{textAlign:'center'}}>you clicked on the link! cool.</h2>
-        <p style={{textAlign:'center', margin:'25px', fontSize:'11px', color:'rgba(0,0,0,0.7)'}}>i wanted to make a page with some of the stuff i'm learning because reading has been a really good escape for me since quarantine began. i didn't want to nerd out on the TL so i figured this would be better.</p>
-        <h3 style={{textAlign:'center'}}>todays binges</h3>
-        <p style={{textAlign:'center', fontSize:'9px', color:'rgba(0,125,0,0.9)', position:'relative', top:'-15px'}}>~swipe~</p>
+        <p style={{textAlign:'center', margin:'25px', fontSize:'12px', color:'rgba(0,0,0,0.7)'}}>i wanted to make a page with some of the stuff i'm learning because reading has been a really good escape for me since quarantine began. i didn't want to nerd out on the TL so i figured this would be better.</p>
+        <h2 style={{textAlign:'center' }}>todays binges</h2>
+        <p style={{textAlign:'center', fontSize:'11px', color:'rgba(0,125,0,0.9)', position:'relative', top:'-15px'}}>~swipe~</p>
         <div style={{display: 'flex', flexDirection: 'column', alignItems:'center'}}>
           <Slider description={'? what: quantum physics and the possibility of a multiverse'}>
             <img width='150px' height='225px' src={require('./book-covers/something-deeply-hidden.jpg')}></img>
           </Slider>
           <div style={{position:'relative', top:'15px'}}>
             <p style={{textAlign:'center'}}>Something Deeply Hidden</p>
-            <p style={{position: 'relative', top: '-10px', textAlign:'center', fontSize:'11px', color:'rgba(0,0,0,0.9)'}}> by Sean Carroll</p>
+            <p style={{position: 'relative', top: '-10px', textAlign:'center', fontSize:'12px', color:'rgba(0,0,0,0.9)'}}> by Sean Carroll</p>
           </div>
         </div>
 
@@ -29,7 +29,7 @@ function App() {
           </Slider>
           <div style={{position:'relative', top:'15px'}}>
             <p style={{textAlign:'center'}}>The Complete Book of Five Rings </p>
-            <p style={{position: 'relative', top: '-10px',textAlign:'center', fontSize:'11px', color:'rgba(0,0,0,0.9)'}}> by Miyamoto Musashi edited by Kenji Tokitsu</p>
+            <p style={{position: 'relative', top: '-10px',textAlign:'center', fontSize:'12px', color:'rgba(0,0,0,0.9)'}}> by Miyamoto Musashi edited by Kenji Tokitsu</p>
           </div>
         </div>
 
@@ -39,7 +39,7 @@ function App() {
           </Slider>
           <div style={{position:'relative', top:'15px'}}>
             <p style={{textAlign:'center'}}>Cradle to Cradle</p>
-            <p style={{position: 'relative', top: '-10px',textAlign:'center', fontSize:'11px', color:'rgba(0,0,0,0.9)'}}> by William Mcdonough & Michael Braungart </p>
+            <p style={{position: 'relative', top: '-10px',textAlign:'center', fontSize:'12px', color:'rgba(0,0,0,0.9)'}}> by William Mcdonough & Michael Braungart </p>
           </div>
         </div>
     </div>
@@ -47,7 +47,7 @@ function App() {
     <div style={{display:'flex', flexDirection:'column', alignItems:'center', position:'relative', top:'60px'}}>
       <div id='previous'>
           <h3 style={{textAlign:'center'}}>the knowledge trail</h3>
-          <p style={{textAlign:'center', fontSize:'9px', color:'rgba(0,125,0,0.9)', position:'relative', top:'-15px'}}>~tap~</p>
+          <p style={{textAlign:'center', fontSize:'11px', color:'rgba(0,125,0,0.9)', position:'relative', top:'-15px'}}>~tap~</p>
       </div>
       <div style={{display:'flex', flexDirection:'row', margin:'0 auto', width:'100%', justifyContent:'space-around'}}>
         <div style={{position:'relative', top:'0px',width:'150px', height:'225px'}}>
