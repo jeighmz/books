@@ -6,7 +6,7 @@ import './styles.css'
 const pages =(content, rating, takeaways)=>
 [
   ({ style }) => <animated.div style={{ ...style, background: 'lightpink' }}>{content}</animated.div>,
-  ({ style }) => <animated.div style={{ ...style, textAlign:'center', background: 'lightblue' }}>{rating}</animated.div>,
+  ({ style }) => <animated.div style={{ ...style, textAlign:'center',background: 'lightblue' }}>{rating}</animated.div>,
   ({ style }) => <animated.div style={{ ...style, textAlign:'center', background: 'lightgreen' }}>{takeaways}</animated.div>,
 ] 
 
