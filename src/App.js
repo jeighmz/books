@@ -10,7 +10,7 @@ function App() {
     <div style={{display:'flex', flexDirection:'column', position: "absolute", top: '0px'}}>
     <div id='current'>
         <h2 style={{textAlign:'center'}}>you clicked on the link! cool.</h2>
-        <p style={{textAlign:'center', margin:'25px', fontSize:'12px', color:'rgba(0,0,0,0.7)'}}>i wanted to make a page with some of the stuff i'm learning because reading has been a really good escape for me since quarantine began. i didn't want to nerd out on the TL so i figured this would be better.</p>
+        <p style={{textAlign:'center', margin:'25px', fontSize:'12px', color:'rgba(0,0,0,0.7)'}}>peep the books i'm reading. COVID got me picking up books who knew it would be enjoyable.</p>
         <h2 style={{textAlign:'center' }}>todays binges</h2>
         <p style={{textAlign:'center', fontSize:'11px', color:'rgba(0,125,0,0.9)', position:'relative', top:'-15px'}}>~swipe~</p>
         <div style={{display: 'flex', flexDirection: 'column', alignItems:'center'}}>
