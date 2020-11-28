@@ -23,6 +23,15 @@ function App() {
             <p style={{position: 'relative', top: '-10px',textAlign:'center', fontSize:'12px', color:'rgba(0,0,0,0.9)'}}> by John O. Brennan</p>
           </div>
         </div>
+        <div style={{display: 'flex', flexDirection: 'column', alignItems:'center', justifyContent:'center', position:'relative', top: '20px'}}>
+          <Slider description={'? what: memoir from the first black Commander in Chief (fuck yea)'}>
+            <img width='150px' height='225px' src={require('./book-covers/apromisedland.jpg')}></img>
+          </Slider>
+          <div style={{position:'relative', top:'15px'}}>
+            <p style={{textAlign:'center'}}>A Promised Land</p>
+            <p style={{position: 'relative', top: '-10px',textAlign:'center', fontSize:'12px', color:'rgba(0,0,0,0.9)'}}> by Barack Obama</p>
+          </div>
+        </div>
     </div>
 
     <div style={{display:'flex', flexDirection:'column', alignItems:'center', position:'relative', top:'60px'}}>
