@@ -24,7 +24,7 @@ function App() {
           </div>
         </div>
         <div style={{display: 'flex', flexDirection: 'column', alignItems:'center', justifyContent:'center', position:'relative', top: '20px'}}>
-          <Slider description={'? what: memoir from the first black Commander in Chief (fuck yea)'}>
+          <Slider description={'? what: memoir from the first black Commander in Chief'}>
             <img width='150px' height='225px' src={require('./book-covers/apromisedland.jpg')}></img>
           </Slider>
           <div style={{position:'relative', top:'15px'}}>
