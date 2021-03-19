@@ -12,7 +12,7 @@ function App() {
         <h2 style={{textAlign:'center'}}>you clicked on the link! cool.</h2>
         <p style={{textAlign:'center', margin:'25px', fontSize:'12px', color:'rgba(0,0,0,0.7)'}}>peep the books i'm reading. COVID got me picking up books who knew it would be enjoyable.</p>
         <h2 style={{textAlign:'center' }}>todays binges</h2>
-        <p style={{textAlign:'center', fontSize:'11px', color:'rgba(0,125,0,0.9)', position:'relative', top:'-15px'}}>~swipe cover~</p>
+        <p style={{textAlign:'center', fontSize:'30px', letterSpacing:'8px',color:'rgba(0,125,0,0.9)', position:'relative', top:'-15px'}}>~swipe cover~</p>
       
         <div style={{display: 'flex', flexDirection: 'column', alignItems:'center', justifyContent:'center', position:'relative', top: '0px'}}>
           <Slider description={'? what: memoir from former CIA director covering 30 years in government'}>
@@ -39,7 +39,7 @@ function App() {
     <div style={{display:'flex', flexDirection:'column', alignItems:'center', position:'relative', top:'60px'}}>
       <div id='previous'>
           <h3 style={{textAlign:'center'}}>the knowledge trail</h3>
-          <p style={{textAlign:'center', fontSize:'11px', color:'rgba(0,125,0,0.9)', position:'relative', top:'-15px'}}>~tap cover~</p>
+          <p style={{textAlign:'center', fontSize:'25px',letterSpacing:'8px', color:'rgba(0,125,0,0.9)', position:'relative', top:'-15px'}}>~tap cover~</p>
       </div>
       <div style={{display:'flex', flexDirection:'row', margin:'0 auto', width:'100%', justifyContent:'space-around', position: 'relative', top:'0px'}}>
         <div style={{position:'relative', top:'0px',width:'150px', height:'225px'}}>
