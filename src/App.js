@@ -7,13 +7,13 @@ import Transition from './transitions'
 function App() {
   return (
     <React.Fragment>
-    <div style={{display:'flex', flexDirection:'column', position: "absolute", top: '0px', overflowY:'hidden'}}>
+    <div style={{display:'flex', flexDirection:'column', position: "absolute", top: '0px', overflowY:'hiddengit '}}>
     <div id='current'>
       <div style={{backgroundColor:'rgba(150, 251, 196,1)', position:"relative", width:'100%', paddingTop:'30px'}}>
         <h2 style={{textAlign:'center'}}>you clicked on the link! cool.</h2>
         <p style={{textAlign:'center',position:'relative', top:'-17px',marginLeft:'50px',marginRight:'50px', fontSize:'12px', color:'rgba(0,0,0,0.7)'}}>peep the books i'm reading. COVID got me picking up books who knew it would be enjoyable.</p>
       </div> 
-        <h2 style={{textAlign:'left', marginLeft:'25px' }}>todays binges</h2>
+        <h2 style={{textAlign:'left', marginLeft:'25px',marginTop:'25px' }}>todays binges</h2>
         <p style={{textAlign:'center', fontSize:'30px', letterSpacing:'8px',color:'rgba(0,140,0,0.9)', position:'relative', top:'-15px'}}>~swipe cover~</p>
       
       
