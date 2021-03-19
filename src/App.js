@@ -7,7 +7,7 @@ import Transition from './transitions'
 function App() {
   return (
     <React.Fragment>
-    <div style={{display:'flex', flexDirection:'column', position: "absolute", top: '0px'}}>
+    <div style={{display:'flex', flexDirection:'column', position: "absolute", top: '0px', overflowY:'hidden'}}>
     <div id='current'>
       <div style={{backgroundColor:'rgba(150, 251, 196,1)', position:"relative", width:'100%', paddingTop:'30px'}}>
         <h2 style={{textAlign:'center'}}>you clicked on the link! cool.</h2>
