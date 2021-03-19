@@ -23,6 +23,7 @@ function App() {
             <p style={{position: 'relative', top: '-10px',textAlign:'center', fontSize:'12px', color:'rgba(0,0,0,0.9)'}}> by John O. Brennan</p>
           </div>
         </div>
+
         <div style={{display: 'flex', flexDirection: 'column', alignItems:'center', justifyContent:'center', position:'relative', top: '20px'}}>
           <Slider description={'? what: the goal system Youtube, Google, and Intel used to boom'}>
             <img width='150px' height='225px' src={require('./book-covers/Measurewhatmatters.jpg')}></img>
@@ -32,6 +33,7 @@ function App() {
             <p style={{position: 'relative', top: '-10px',textAlign:'center', fontSize:'12px', color:'rgba(0,0,0,0.9)'}}> by John Doerr</p>
           </div>
         </div>
+
     </div>
 
     <div style={{display:'flex', flexDirection:'column', alignItems:'center', position:'relative', top:'60px'}}>
@@ -41,8 +43,12 @@ function App() {
       </div>
       <div style={{display:'flex', flexDirection:'row', margin:'0 auto', width:'100%', justifyContent:'space-around', position: 'relative', top:'0px'}}>
         <div style={{position:'relative', top:'0px',width:'150px', height:'225px'}}>
+          <Transition content={<img width='150px' height='225px' src={require('./book-covers/thefouragreements.jpg')}></img>} rating='? what: thousands of years of toltec knowledge on a virtuous lifestyle' takeaways='. my take: the agreements are decievingly simple to be such precious knowledge - ancient culture needs more credit.'></Transition>
+        </div>
+        <div style={{position:'relative', top:'0px',width:'150px', height:'225px'}}>
           <Transition content={<img width='150px' height='225px' src={require('./book-covers/lifelessonsbrainsurgeon.jpg')}></img>} rating='? what: stuff on brain surgery and all things related brain' takeaways='. my take: 42% of people who get shot in the head survive. 😳'></Transition>
         </div>
+
       </div>
       <div style={{display:'flex', flexDirection:'row', margin:'0 auto', width:'100%', justifyContent:'space-around', position: 'relative', top:'20px'}}>
         <div style={{position:'relative', top:'0px',width:'150px', height:'225px'}}>
