@@ -24,12 +24,12 @@ function App() {
           </div>
         </div>
         <div style={{display: 'flex', flexDirection: 'column', alignItems:'center', justifyContent:'center', position:'relative', top: '20px'}}>
-          <Slider description={'? what: memoir from the first black Commander in Chief'}>
-            <img width='150px' height='225px' src={require('./book-covers/apromisedland.jpg')}></img>
+          <Slider description={'? what: the goal system Youtube, Google, and Intel used to boom'}>
+            <img width='150px' height='225px' src={require('./book-covers/Measurewhatmatters.jpg')}></img>
           </Slider>
           <div style={{position:'relative', top:'15px'}}>
-            <p style={{textAlign:'center'}}>A Promised Land</p>
-            <p style={{position: 'relative', top: '-10px',textAlign:'center', fontSize:'12px', color:'rgba(0,0,0,0.9)'}}> by Barack Obama</p>
+            <p style={{textAlign:'center'}}>Measure What Matters</p>
+            <p style={{position: 'relative', top: '-10px',textAlign:'center', fontSize:'12px', color:'rgba(0,0,0,0.9)'}}> by John Doerr</p>
           </div>
         </div>
     </div>
