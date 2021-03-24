@@ -9,12 +9,12 @@ function App() {
     <React.Fragment>
     <div style={{display:'flex', flexDirection:'column', position: "absolute", top: '0px', overflowY:'hiddengit '}}>
     <div id='current'>
-      <div style={{backgroundColor:'rgba(150, 251, 196,1)', position:"relative", width:'100%', paddingTop:'30px'}}>
+      <div style={{backgroundColor:'rgba(150, 251, 196,1)', position:"relative", width:'100%', paddingTop:'12px'}}>
         <h2 style={{textAlign:'center'}}>you clicked on the link! cool.</h2>
         <p style={{textAlign:'center',position:'relative', top:'-17px',marginLeft:'50px',marginRight:'50px', fontSize:'12px', color:'rgba(0,0,0,0.7)'}}>peep the books i'm reading. COVID got me picking up books who knew it would be enjoyable.</p>
       </div> 
         <h2 style={{textAlign:'left', marginLeft:'25px',marginTop:'30px' }}>todays binges</h2>
-        <p style={{textAlign:'center', fontSize:'30px', letterSpacing:'8px',color:'rgba(0,140,0,0.9)', position:'relative', top:'-15px'}}>~swipe cover~</p>
+        <p style={{textAlign:'center', fontSize:'25px', letterSpacing:'8px',color:'rgba(0,140,0,0.9)', position:'relative', top:'-15px'}}>~swipe cover~</p>
       
       
         <div style={{display: 'flex', flexDirection: 'column', alignItems:'center', justifyContent:'center', position:'relative', top: '0px'}}>
@@ -27,11 +27,21 @@ function App() {
           </div>
         </div>
 
+        <div style={{display: 'flex', flexDirection: 'column', alignItems:'center', justifyContent:'center', position:'relative', top: '20px'}}>
+          <Slider description={'? what: former Area-51 scientist who reverse engineered UFOs'}>
+            <img width='150px' height='225px' src={require('./book-covers/dreamland.jpg')}></img>
+          </Slider>
+          <div style={{position:'relative', top:'15px'}}>
+            <p style={{textAlign:'center'}}>Dreamland: An Autobiography</p>
+            <p style={{position: 'relative', top: '-10px',textAlign:'center', fontSize:'12px', color:'rgba(0,0,0,0.9)'}}> by Bob Lazar</p>
+          </div>
+        </div>
+
     </div>
 
     <div style={{display:'flex', flexDirection:'column', position:'relative', top:'60px'}}>
       <div id='previous'>
-          <h3 style={{textAlign:'left', marginLeft:'25px'}}>the knowledge trail</h3>
+          <h2 style={{textAlign:'left', marginLeft:'25px'}}>the knowledge trail</h2>
           <p style={{textAlign:'center', fontSize:'25px',letterSpacing:'8px', color:'rgba(0,140,0,0.9)', position:'relative', top:'-15px'}}>~tap cover~</p>
       </div>
       <div style={{display:'flex', flexDirection:'row', margin:'0 auto', width:'100%', justifyContent:'space-around', position: 'relative', top:'0px'}}>
