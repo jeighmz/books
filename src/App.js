@@ -18,12 +18,22 @@ function App() {
       
 
         <div style={{display: 'flex', flexDirection: 'column', alignItems:'center', justifyContent:'center', position:'relative', top: '0px'}}>
-          <Slider description={'? what: former Area-51 scientist who reverse engineered UFOs'}>
-            <img width='150px' height='225px' src={require('./book-covers/dreamland.jpg')}></img>
+          <Slider description={'? what: methods of problem solving from personal to global scale'}>
+            <img width='150px' height='225px' src={require('./book-covers/thinkinginsystems.jpg')}></img>
           </Slider>
           <div style={{position:'relative', top:'15px'}}>
-            <p style={{textAlign:'center'}}>Dreamland: An Autobiography</p>
-            <p style={{position: 'relative', top: '-10px',textAlign:'center', fontSize:'12px', color:'rgba(0,0,0,0.9)'}}> by Bob Lazar</p>
+            <p style={{textAlign:'center'}}>Thinking in Systems: A Primer</p>
+            <p style={{position: 'relative', top: '-10px',textAlign:'center', fontSize:'12px', color:'rgba(0,0,0,0.9)'}}> by Donella H. Meadows</p>
+          </div>
+        </div>
+
+        <div style={{display: 'flex', flexDirection: 'column', alignItems:'center', justifyContent:'center', position:'relative', top: '20px'}}>
+          <Slider description={'? what: methods of problem solving from personal to global scale'}>
+            <img width='150px' height='225px' src={require('./book-covers/findingthingsout.jpg')}></img>
+          </Slider>
+          <div style={{position:'relative', top:'15px'}}>
+            <p style={{textAlign:'center'}}>The Pleasure of Findings Things Out</p>
+            <p style={{position: 'relative', top: '-10px',textAlign:'center', fontSize:'12px', color:'rgba(0,0,0,0.9)'}}> by Richard Feynman</p>
           </div>
         </div>
 
@@ -36,6 +46,9 @@ function App() {
       </div>
 
       <div style={{display:'flex', flexDirection:'row', margin:'0 auto', width:'100%', justifyContent:'space-around', position: 'relative', top:'0px'}}>
+      <div style={{position:'relative', top:'0px',width:'150px', height:'225px'}}>
+          <Transition content={<img width='150px' height='225px' src={require('./book-covers/dreamland.jpg')}></img>} rating='? what: autobiography from former Area-51 scientist who reverse engineered UFOs' takeaways='. my take: if you dont believe in aliens this will do it. his scienific POV is an engaging twist on a topic most people dismiss.'></Transition>
+        </div>
         <div style={{position:'relative', top:'0px',width:'150px', height:'225px'}}>
           <Transition content={<img width='150px' height='225px' src={require('./book-covers/Measurewhatmatters.jpg')}></img>} rating='? what: the goal system Youtube, Google, and Intel used to boom' takeaways='. my take: my hyperfixations and many dreams needed a good infrastructure'></Transition>
         </div>
