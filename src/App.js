@@ -27,7 +27,6 @@ function App() {
           </div>
         </div>
 
-
     </div>
 
     <div style={{display:'flex', flexDirection:'column', position:'relative', top:'60px'}}>
@@ -42,7 +41,7 @@ function App() {
         </div>
       </div>
 
-      <div style={{display:'flex', flexDirection:'row', margin:'0 auto', width:'100%', justifyContent:'space-around', position: 'relative', top:'20px'}}>
+      <div style={{display:'flex', flexDirection:'row', margin:'0 auto', width:'100%', justifyContent:'space-around', position:'relative', top:'20px'}}>
         <div style={{position:'relative', top:'0px',width:'150px', height:'225px'}}>
           <Transition content={<img width='150px' height='225px' src={require('./book-covers/dreamland.jpg')}></img>} rating='? what: autobiography from former Area-51 scientist who reverse engineered UFOs' takeaways='. my take: if you dont believe in aliens this will do it. his scienific POV is an engaging twist on a topic most people dismiss.'></Transition>
         </div>
