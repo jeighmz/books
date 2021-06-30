@@ -18,7 +18,7 @@ function App() {
       
         <div style={{display: 'flex', flexDirection: 'column', alignItems:'center', justifyContent:'center', position:'relative', top: '0px'}}>
           <Slider description={'? what: POV of being spiritual in a largely technological/ science lead society.'}>
-            <img width='150px' height='225px' src={require('./book-covers/dalailama.jpeg')}></img>
+            <img width='150px' height='225px' src={require('./book-covers/dalailama.jpg')}></img>
           </Slider>
           <div style={{position:'relative', top:'15px'}}>
             <p style={{textAlign:'center'}}>The Universe in a Single Atom</p>
