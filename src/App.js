@@ -10,7 +10,7 @@ function App() {
     <div style={{display:'fçlex', flexDirection:'column', position: "absolute", top: '0px', width:'100%'}}>
     <div id='current'>
       <div style={{backgroundColor:'rgba(150, 251, 196,1)', position:"relative", width:'100%', paddingTop:'12px'}}>
-        <h2 style={{textAlign:'center'}}>you clicked on the link!</h2>
+        <h2 style={{textAlign:'center'}}>you clicked on the link! cool!</h2>
         <p style={{textAlign:'center',position:'relative', top:'-17px',marginLeft:'50px',marginRight:'50px', fontSize:'12px', color:'rgba(0,0,0,0.7)'}}>peep the books i'm reading.</p>
       </div> 
         <h2 style={{textAlign:'left', marginLeft:'25px',marginTop:'30px' }}>todays binges</h2>
