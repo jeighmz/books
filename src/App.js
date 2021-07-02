@@ -16,7 +16,7 @@ function App() {
         <h2 style={{textAlign:'left', marginLeft:'25px',marginTop:'30px' }}>todays binges</h2>
         <p style={{textAlign:'center', fontSize:'25px', letterSpacing:'8px',color:'rgba(0,140,0,0.9)', position:'relative', top:'-15px'}}>~swipe cover~</p>
       
-        <div style={{display: 'flex', flexDirection: 'column', alignItems:'center', justifyContent:'center', position:'relative', top: '0px'}}>
+        {/* <div style={{display: 'flex', flexDirection: 'column', alignItems:'center', justifyContent:'center', position:'relative', top: '0px'}}>
           <Slider description={'? what: POV of being spiritual in a largely technological/ science lead society.'}>
             <img width='150px' height='225px' src={require('./book-covers/dalailama.jpg')}></img>
           </Slider>
@@ -24,9 +24,9 @@ function App() {
             <p style={{textAlign:'center'}}>The Universe in a Single Atom</p>
             <p style={{position: 'relative', top: '-10px',textAlign:'center', fontSize:'12px', color:'rgba(0,0,0,0.9)'}}> by 14th Dalai Lama</p>
           </div>
-        </div>
+        </div> */}
 
-        <div style={{display: 'flex', flexDirection: 'column', alignItems:'center', justifyContent:'center', position:'relative', top: '20px'}}>
+        <div style={{display: 'flex', flexDirection: 'column', alignItems:'center', justifyContent:'center', position:'relative', top: '0px'}}>
           <Slider description={'? what: methods of problem solving from personal to global scale'}>
             <img width='150px' height='225px' src={require('./book-covers/thinkinginsystems.jpg')}></img>
           </Slider>
@@ -45,6 +45,10 @@ function App() {
       </div>
 
       <div style={{display:'flex', flexDirection:'row', margin:'0 auto', width:'100%', justifyContent:'space-around', position: 'relative', top:'0px'}}>
+        <div style={{position:'relative', top:'0px',width:'150px', height:'225px'}}>
+          <Transition content={<img width='150px' height='225px' src={require('./book-covers/dalailama.jpg')}></img>} rating='? what: POV of being spiritual in a largely technological/ science lead society.' takeaways='. my take: science does have a way of making people nihilistic but the Dalai Lama provides alternative ways of analyzing such empirical data through parrallels of science and buddhism.'></Transition>
+        </div>
+        
         <div style={{position:'relative', top:'0px',width:'150px', height:'225px'}}>
           <Transition content={<img width='150px' height='225px' src={require('./book-covers/findingthingsout.jpg')}></img>} rating='? what: works by Feynman on nanotech to religion v science to building the atomic bomb' takeaways='. my take: this guy. this is my favorite guy. childlike curiosity w adult intuition and nonchalance.'></Transition>
         </div>
