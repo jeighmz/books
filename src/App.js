@@ -7,7 +7,7 @@ import Transition from './transitions'
 function App() {
   return (
     <React.Fragment>
-    <div style={{display:'fçlex', flexDirection:'column', position: "absolute", top: '0px', width:'100%'}}>
+    <div style={{display:'flex', flexDirection:'column', position: "absolute", top: '0px', width:'100%'}}>
     <div id='current'>
       <div style={{backgroundColor:'rgba(150, 251, 196,1)', position:"relative", width:'100%', paddingTop:'12px'}}>
         <h2 style={{textAlign:'center'}}>you clicked on the link! cool!</h2>
@@ -26,15 +26,6 @@ function App() {
           </div>
         </div>
 
-        <div style={{display: 'flex', flexDirection: 'column', alignItems:'center', justifyContent:'center', position:'relative', top: '20px'}}>
-          <Slider description={'? what: Sagans personal views and search for God in the vastness of the Cosmos'}>
-            <img width='150px' height='225px' src={require('./book-covers/sagan.jpg')}></img>
-          </Slider>
-          <div style={{position:'relative', top:'15px'}}>
-            <p style={{textAlign:'center'}}>The Varieties of Scientific Experience</p>
-            <p style={{position: 'relative', top: '-10px',textAlign:'center', fontSize:'12px', color:'rgba(0,0,0,0.9)'}}> by Carl Sagan edited by Ann Druyan</p>
-          </div>
-        </div>
 
     </div>
 
@@ -42,6 +33,12 @@ function App() {
       <div id='previous'>
           <h2 style={{textAlign:'left', marginLeft:'25px'}}>the knowledge trail</h2>
           <p style={{textAlign:'center', fontSize:'25px',letterSpacing:'8px', color:'rgba(0,140,0,0.9)', position:'relative', top:'-15px'}}>~tap cover~</p>
+      </div>
+
+      <div style={{display:'flex', flexDirection:'row', margin:'0 auto', width:'100%', justifyContent:'space-around', position: 'relative', top:'0px'}}>
+        <div style={{position:'relative', top:'0px',width:'150px', height:'225px'}}>
+          <Transition content={<img width='150px' height='225px' src={require('./book-covers/sagan.jpg')}></img>} rating='? what: Sagans transcripts of his stand at the Gifford Lectures covering his view on God.' takeaways='. my take: more I read ab science n religion the more I find that everybody is equally in the dark searching for answers and hoping to connect their understanding w others.'></Transition>
+        </div>
       </div>
 
       <div style={{display:'flex', flexDirection:'row', margin:'0 auto', width:'100%', justifyContent:'space-around', position: 'relative', top:'0px'}}>
