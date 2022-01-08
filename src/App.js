@@ -18,7 +18,7 @@ function App() {
 
         <div style={{display: 'flex', flexDirection: 'column', alignItems:'center', justifyContent:'center', position:'relative', top: '-10px'}}>
           <Slider description={'? what: stories about what to expect from AI in the year 2041'}>
-            <img width='150px' height='225px' src={require('./book-covers/ai2041.jpeg')}></img>
+            <img width='150px' height='225px' src={require('./book-covers/ai2041.jpg')}></img>
           </Slider>
           <div style={{position:'relative', top:'15px'}}>
             <p style={{textAlign:'center'}}>AI 2041: 10 Visions for Our Future</p>
