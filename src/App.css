@@ -70,7 +70,7 @@
   font-size:25px;
   transform:scale(1,0.95);
   letter-spacing:8px;
-  color:#4caf50;
+  color:rgb(120, 120, 120);
   position:relative;
   top:-15px;
 }

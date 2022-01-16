@@ -8,7 +8,7 @@ export default ({ children, description }) => {
   const [bind, { delta, down }] = useGesture()
   const { x, bg, size } = useSpring({
     x: down ? delta[0] : 0,
-    bg: `linear-gradient(120deg, ${delta[0] < 0 ? '#0044de 0%, #ffff00s' : '#42a5f5 0%, #0044de'} 100%)`,
+    bg: `linear-gradient(120deg, ${delta[0] < 0 ? '#0044de 0%, #42a5f5' : '#42a5f5 0%, #0044de'} 100%)`,
     size: down ? 1.1 : 1,
     immediate: name => down && name === 'x'
   })
